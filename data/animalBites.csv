@@ -2,10 +2,10 @@
 2015,1,Dog,Pit Bull,Male,Wht Brn,Unknown
 2015,1,Dog,Basset Hound,Male,Tricolor,Unknown
 2015,1,Dog,Labrador Retriv,Unknown,Blk Wht,Unknown
-2015,1,Dog,Beagle,Male,Brn Wht,body
+2015,1,Dog,Beagle,Male,Brn Wht,Body
 2015,1,Dog,Chow Chow,Female,Silver,Body
 2015,1,Dog,Pit Bull,Unknown,Unknown,Body
-2015,1,Dog,Austt. Terr.,Female,Blk Wht,Body
+2015,1,Dog,Austt. Terr,Female,Blk Wht,Body
 2015,1,Dog,Germ Shepherd,Male,Blk Brn,Body
 2015,1,Dog,Pog,Male,Brn,Body
 2015,1,Unknown,Unknown,Unknown,Unknown,Unknown
@@ -30,10 +30,10 @@
 2015,1,Dog,Pit Bull,Male,Wht Tan,Body
 2015,1,Dog,Rottweiler,Male,Blk Tan,Body
 2015,1,Dog,Chichauhua,Male,Tan,Head
-2015,1,Dog,Pit Bull,Male,BLack Whit,Body
+2015,1,Dog,Pit Bull,Male,BLack Wht,Body
 2015,1,Dog,Unknown,Male,Wht/Brn,Head
 2015,1,Dog,Border Collie ,Male,Blk/Wht,Head
-2015,1,Dog,|Unknown,MaleE,Tan,Head
+2015,1,Dog,Unknown,Male,Tan,Head
 2015,1,Dog,Pit Bull,Female,Blue,Head
 2015,1,Dog,Labrador Retriv,Unknown,Black,Head
 2015,1,Dog,Shi Tzu,Male,Blk/Wht,Body
@@ -43,17 +43,17 @@
 2015,1,Dog,Unknown,Male,BLonde,Unknown
 2015,1,Dog,Unknown,Unknown,Unknown,Body
 2015,1,Dog,Pit Bull,Unknown,Black,Body
-2015,1,Dog,UNKNOWN,Unknown,Unknown,Body
+2015,1,Dog,Unknown,Unknown,Unknown,Body
 2015,1,Dog,Pit Bull,Male,Brown,Body
 2015,1,Dog,Basset Hound,Male,Unknown,Unknown
 2015,1,Dog,Pit Bull,Unknown,Unknown,Unknown
 2015,1,Dog,Unknown,Unknown,Unknown,Body
 2015,1,Dog,Pit Bull,Male,Brn Wht,Body
 2015,1,Dog,Unknown,Unknown,Unknown,Unknown
-2015,1,Dog,Shih Tzu,Unknown,Unknown,Head
+2015,1,Dog,Shi Tzu,Unknown,Unknown,Head
 2015,1,Dog,Pit Bull,Male,Brown Wht,Body
 2015,1,Dog,Pit Bull,Male,Black,Head
-2015,1,Dog,Shih Tzu,Female,Gry Wht,Head
+2015,1,Dog,Shi Tzu,Female,Gry Wht,Head
 2015,1,Dog,Gold Retriv,Unknown,Unknown,Unknown
 2015,1,Dog,Austt. Terr,Male,Blk Brn,Head
 2015,1,Dog,Unknown,Unknown,Unknown,Body
@@ -69,12 +69,12 @@
 2016,1,Dog,Germ Shepherd,Male,Unknown,Body
 2016,1,Dog,Rat Terrier,Male,Liver Wht,Body
 2016,1,Dog,Bullmastiff,Male,Blk Wht,Body
-2016,1,Dog,LabradorR Retriv,Male,Tan,Body
+2016,1,Dog,Labrador Retriv,Male,Tan,Body
 2016,1,Dog,Beagle,Female,Unknown,Unknown
 2016,1,Dog,Unknown,Unknown,Unknown,Body
 2016,1,Dog,Unknown,Male,Blck,Unknown
 2016,1,Dog,Pit Bull,Female,Unknown,Unknown
-2016,1,Dog,Shih Tzu,Female,White,Body
+2016,1,Dog,Shi Tzu,Female,White,Body
 2016,1,Dog,Unknown,Unknown,Unknown,Body
 2016,1,Dog,English Bulldog,Male,Wht Blk,Body
 2016,1,Dog,Pit Bull,Male,Blk Wht,Body
@@ -84,3 +84,42 @@
 2016,1,Dog,Pomeranian,Unknown,Unknown,Body
 2016,1,Dog,Pit Bull,Male,Unknown,Body
 2016,1,Dog,Unknown,Unknown,Unknown,Unknown
+2016,1,Dog,Unknown,Male,Unknown,Body
+2016,1,Dog,Germ Shepherd,Male,Unknown,Body
+2016,1,Dog,Pit Bull,Female,Gry/Wht,Body
+2016,1,Dog,Chichauhua,Female,Unknown,Head
+2016,1,Dog,Malamute,Unknown,Unknown,Body
+2016,1,Dog,Husky,Male,White,Body
+2016,1,Dog,Chow Chow,Female,Brown,Body
+2016,1,Dog,Other,Male,Black,Body
+2016,1,Dog,Unknown,Unknown,Unknown,Unknown
+2016,1,Dog,Boxer,Male,Unknown,Unknown
+2016,1,Dog,Boston Terrier,Male,Blck/Wht,Body
+2017,1,Dog,Pit Bull,Female,Unknown,Head
+2017,1,Dog,Pit Bull,Female,Tan Wht,Body
+2017,1,Dog,Pit Bull,Male,Wht Blck,Body
+2017,1,Dog,Geyhound,Male,Brindle,Head
+2017,1,Dog,Germ Shepherd,Male,Black,Body
+2017,1,Dog,Pit Bull,Female,Brn/Wht,Body
+2017,1,Dog,Pit Bull,Male,White,Body
+2017,1,Dog,Pit Bull,Unknown,Unknown,Body
+2017,1,Dog,Unknown,Unknown,Unknown,Head
+2017,1,Dog,Germ Shepherd,Male,White,Body
+2017,1,Dog,Pit Bull,Unknown,Brn/Wht,Body
+2017,1,Dog,Unknown,Unknown,Unknown,Body
+2017,1,Dog,Pit Bull,Female,Tan,Body
+2017,1,Dog,Havanese,Male,Black,Body
+2017,1,Dog,Cane Corso,Male,Black,Body
+2017,1,Dog,Pomeranian,Male,Red/Wht,Body
+2017,1,Dog,Great Dane,Female,Black,Body
+2017,1,Dog,Pit Bull,Female,White,Body
+2017,1,Dog,Corgi,Male,Brn/Wht,Body
+2017,1,Dog,Unknown,Female,White,Head
+2017,1,Dog,Unknown,Male,Blk/Wht,Body
+2017,1,Dog,Golden Lab,Male,Tan,Body
+2017,1,Dog,Unknown,Male,Brown,Body
+2017,1,Dog,Unknown,Unknown,Black,Body
+2017,1,Dog,Pit Bull,Male,Brn/Blk,Body
+2017,1,Dog,Pit Bull,Male,Brn/Blk,Body
+
+

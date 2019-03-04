@@ -30,6 +30,10 @@ function show_breed_selector(ndx) {
     dc.selectMenu("#breed-selector")
         .dimension(dim)
         .group(group)
+         .title(function (d) {
+            return d.key;
+        })
+        .promptText("Choose a Dog Breed");
        
         
 }
@@ -38,11 +42,6 @@ function show_breed2_selector(ndx) {
     var dim = ndx.dimension(dc.pluck('breed'));
     var group = dim.group();
 
-    dc.selectMenu("#breed2-selector")
-        .dimension(dim)
-        .group(group)
-        
-        
 }
 
 function show_bar_chart(ndx) {

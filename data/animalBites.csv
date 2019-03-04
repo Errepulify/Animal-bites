@@ -1,4 +1,4 @@
-"date","bite","species","breed","gender","color","wherebitten",""country"
+"date","bite","species","breed","gender","color","wherebitten","country"
 2015,1,Dog,Pit Bull,Male,Wht Brn,Unknown,The Netherlands
 2015,1,Dog,Basset Hound,Male,Tricolor,Unknown,Germany
 2015,1,Dog,Labrador Retriv,Unknown,Blk Wht,Unknown,Belgium
@@ -59,7 +59,7 @@
 2015,1,Dog,Unknown,Unknown,Unknown,Body,The Netherlands
 2015,1,Dog,Beagle,Female,Wht Brn,Unknown,Belgium
 2015,1,Dog,Pit Bull,Male,Brindle,Head,Belgium
-2015,1,Dog,Germ Shepherd,Unknown,Unknown,Body,Belgium 
+2015,1,Dog,Germ Shepherd,Unknown,Unknown,Body,Belgium
 2015,1,Dog,Basset Hound,Unknown,Tan Wht,Body,The Netherlands
 2015,1,Dog,Boxer,Male,Unknown,Body,Ireland
 2016,1,Dog,Cocker Spaniel,Male,Multi Colo,Head,Scotland

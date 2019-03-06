@@ -16,3 +16,7 @@ In this case it are all sort of dogs in the time period between 2015 to 2016
 - As a user I want to click on a button so everything resets.
 
 - As a user I want to be able to see the website on different devices.
+
+
+ <a href="https://imgur.com/8BjOyW4">Desktop wireframe</a>
+ <a href="https://imgur.com/DxaZS0B">Mobile wireframe</a>

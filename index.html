@@ -2,69 +2,81 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Animal bites</title>
-   
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Animal bites</title>
 
-    <link rel="stylesheet" href="static/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="static/css/dc.min.css" type="text/css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  <link rel="stylesheet" href="static/css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="static/css/dc.min.css" type="text/css" />
 
   <!--Load Jasmine framework-->
-    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.3.0/jasmine.js"></script>
+  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.3.0/jasmine.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.3.0/jasmine-html.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.3.0/boot.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.3.0/jasmine.css" /> -->
-    
-    <!-- Load scripts 
+
+  <!-- Load scripts 
     <script type="text/javascript" src="jasmine/scripts/calc.js"></script>-->
-    
-    <!-- Load test 
+
+  <!-- Load test 
     <script type="text/javascript" src="jasmine/spec/calcSpec.js"></script>-->
 
-    <script type="text/javascript" src="static/js/d3.min.js"></script>
-    <script type="text/javascript" src="static/js/crossfilter.min.js"></script>
-    <script type="text/javascript" src="static/js/dc.min.js"></script>
-    <script type="text/javascript" src="static/js/queue.min.js"></script>
-      <script type="text/javascript" src="static/js/graph.js"></script>
-    
-    
+  <script type="text/javascript" src="static/js/d3.min.js"></script>
+  <script type="text/javascript" src="static/js/crossfilter.min.js"></script>
+  <script type="text/javascript" src="static/js/dc.min.js"></script>
+  <script type="text/javascript" src="static/js/queue.min.js"></script>
+  <script type="text/javascript" src="static/js/graph.js"></script>
+
+
 </head>
 <header>
- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarColor02">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-      </li>
+    <div class="collapse navbar-collapse" id="navbarColor02">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+        </li>
 
-</nav>
+  </nav>
 </header>
 
 <body>
-         <button id = "reset"><a href="javascript:dc.filterAll(); dc.renderAll();">Reset all</a></button>
-                
-        <div id = "total-bites-per-breed"><h1>Dog Bites per year</h1></div>
-        
-        <div id ="breed-selector"></div>
-        
+  <button id="reset"><a href="javascript:dc.filterAll(); dc.renderAll();">Reset all</a></button>
 
-   
-      <div id = "where-chart"><h1>Where the bite was placed</h1></div>
-      <div id = "breed2-selector"></div>
-      
-      <div id="country-chart"><h1>Dog Bites per country</h1></div>
-      
-    <div id = "percentage_female"></div>
-    <div id = "percentage_male"></div>
-        
-  
+  <div id="total-bites-per-breed">
+    <h1>Dog Bites per year</h1>
+  </div>
 
+  <div id="breed-selector"></div>
+
+
+
+  <div id="where-chart">
+    <h1>Where the bite was placed</h1>
+  </div>
+  <div id="breed2-selector"></div>
+
+  <div id="country-chart">
+    <h1>Dog Bites per country</h1>
+  </div>
+
+  <div id="percentage_female"></div>
+  <div id="percentage_male"></div>
+
+  <!--Footer-->
+  <footer style="position: fixed; bottom: 0px; width: 100%; height: 60px; " class="footer">
+    <div class="footer-text">This website is built by:<br> Geert van Kaathoven for a project for Code institute</div>
+
+    <ul class="social-links">
+      <li><a target="_blank" href="https://www.facebook.com/TheMonkees"><i class="fab fa-github"></i></i></a></li>
+    </ul>
+  </footer>
 
 </body>
 

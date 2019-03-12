@@ -13,8 +13,8 @@ function makeGraphs(error, yearData, ) {
     show_bar_chart(ndx);
     show_where_balance(ndx);
     show_country_balance(ndx);
-    
-   
+
+
 
 
 
@@ -31,26 +31,29 @@ function show_breed_selector(ndx) {
     dc.selectMenu("#breed-selector")
         .dimension(dim)
         .group(group)
-         .title(function (d) {
+        .title(function(d) {
             return d.key;
         })
         .promptText("Choose a Dog Breed");
-       
-        
+
+
 }
 /*Second dog breed selector menu*/
 function show_breed2_selector(ndx) {
     var dim = ndx.dimension(dc.pluck('breed'));
     var group = dim.group();
-    
+
 
 }
+
+
+
 
 function show_bar_chart(ndx) {
     var dim = ndx.dimension(dc.pluck('date'));
     var group = dim.group().reduceSum(dc.pluck('bite'));
 
-/*creates barchart total bites per gender*/
+    /*creates barchart total bites per gender*/
     dc.barChart("#total-bites-per-breed")
         .width(600)
         .height(300)
@@ -86,9 +89,9 @@ function show_where_balance(ndx) {
 
 
 
- 
-    
-    function show_country_balance(ndx) {
+
+
+function show_country_balance(ndx) {
     var dim = ndx.dimension(dc.pluck('country'));
     var group = dim.group().reduceSum(dc.pluck('bite'));
 

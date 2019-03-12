@@ -28,13 +28,24 @@
     <script type="text/javascript" src="static/js/dc.min.js"></script>
     <script type="text/javascript" src="static/js/queue.min.js"></script>
       <script type="text/javascript" src="static/js/graph.js"></script>
-      <button id = "reset"><a href="javascript:dc.filterAll(); dc.renderAll();">Reset all</a></button>
+    
     
 </head>
 
 <body>
-     
-       
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor02">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+      </li>
+
+</nav>
+         <button id = "reset"><a href="javascript:dc.filterAll(); dc.renderAll();">Reset all</a></button>
                 
         <div id = "total-bites-per-breed"><h1>Dog Bites per year</h1></div>
         
@@ -46,6 +57,9 @@
       <div id = "breed2-selector"></div>
       
       <div id="country-chart"><h1>Dog Bites per country</h1></div>
+      
+    <div id = "percentage_female"></div>
+    <div id = "percentage_male"></div>
         
   
 

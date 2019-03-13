@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Animal bites</title>
-
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
   <link rel="stylesheet" href="static/css/bootstrap.min.css" type="text/css" />
   <link rel="stylesheet" href="static/css/dc.min.css" type="text/css" />
+
 
   <!--Load Jasmine framework-->
   <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.3.0/jasmine.js"></script>
@@ -47,27 +47,50 @@
 </header>
 
 <body>
-  <button id="reset"><a href="javascript:dc.filterAll(); dc.renderAll();">Reset all</a></button>
+  
 
-  <div id="total-bites-per-breed">
-    <h1>Dog Bites per year</h1>
+  <div class="container">
+    <div class="row">
+      <h1>Dataset of human been bitten by dogs</h1>
+      
+      <div class="col-md-6" id="breed-selector"></div>
+    <div class="col-md-6"><button id="reset"><a href="javascript:dc.filterAll(); dc.renderAll();">Reset all</a></button></div>
+    </div>
+    
+    <div class="row">
+      <div class ="col-md-6" id="total-bites-per-year"></div>
+      <div class ="col-md-6" id="where-chart"></div>
+      </div>
+      
+      <div class="row">
+        <div class="col-md-2" id="country-chart"></div>
+      </div>
+      
+      
+      
+     
+   
+    
+   
+      <!--<h1>Dog Bites per year</h1>-->
+    
+
+   
+
+
+
+   
+      <!--<h1>Where the bite was placed</h1-->
+    
+   
+
+    <div id="country-chart">
+      <!--<h1>Dog Bites per country</h1>-->
+    </div>
   </div>
 
-  <div id="breed-selector"></div>
 
 
-
-  <div id="where-chart">
-    <h1>Where the bite was placed</h1>
-  </div>
-  <div id="breed2-selector"></div>
-
-  <div id="country-chart">
-    <h1>Dog Bites per country</h1>
-  </div>
-
-  <div id="percentage_female"></div>
-  <div id="percentage_male"></div>
 
   <!--Footer-->
   <footer style="position: fixed; bottom: 0px; width: 100%; height: 60px; " class="footer">

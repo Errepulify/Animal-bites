@@ -54,7 +54,7 @@ function show_bar_chart(ndx) {
     var group = dim.group().reduceSum(dc.pluck('bite'));
 
     /*creates barchart total bites per gender*/
-    dc.barChart("#total-bites-per-breed")
+    dc.barChart("#total-bites-per-year")
         .width(600)
         .height(300)
         .margins({ top: 10, right: 50, bottom: 30, left: 80 })

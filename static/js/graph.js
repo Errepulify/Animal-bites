@@ -44,9 +44,9 @@ function show_bar_chart(ndx) {
 
     /*creates barchart total bites per gender*/
     dc.barChart("#total-bites-per-year")
-        .width(600)
+        .width(500)
         .height(300)
-        .margins({ top: 10, right: 50, bottom: 30, left: 80 })
+        .margins({ top: 10, right: 50, bottom: 50, left: 80 })
         .dimension(dim)
         .group(group)
         .transitionDuration(500)
@@ -63,7 +63,7 @@ function show_where_balance(ndx) {
 
 
     dc.barChart("#where-chart")
-        .width(600)
+        .width(500)
         .height(300)
         .margins({ top: 10, right: 50, bottom: 30, left: 80 })
         .dimension(dim)
@@ -86,7 +86,7 @@ function show_country_balance(ndx) {
 
 
     dc.barChart("#country-chart")
-        .width(800)
+        .width(550)
         .height(300)
         .margins({ top: 10, right: 50, bottom: 30, left: 80 })
         .dimension(dim)
@@ -97,4 +97,5 @@ function show_country_balance(ndx) {
         .xAxisLabel("Country")
         .yAxisLabel("Total")
         .yAxis().ticks(20);
+        
 }

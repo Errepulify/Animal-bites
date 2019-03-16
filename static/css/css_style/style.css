@@ -1,0 +1,17 @@
+@media (max-width: 575.98px) {
+    body {
+        background-color: /*#e5e4e2*/red;
+    }
+    /*navbar styling*/
+    .navbar {
+        width: 100%;
+    }
+
+    /*Grapgbar styling*/
+    #total-bites-per-year {
+         width: 256px;
+  height: 256px;
+    }
+
+
+}

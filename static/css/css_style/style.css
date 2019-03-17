@@ -7,13 +7,21 @@
     .navbar {
         width: 100%;
     }
+    .navbar-brand{
+        font-size:3em;
+    }
 .h1-header{
     font-family: 'Signika', sans-serif;
+    font-size: 1.7em;
 }
 
-
-    /*Grapgbar styling*/
-   
+.footer{
+    background-color: #373a3c;
+}
+.footer-text{
+    color:#fff;
+}
+  
     
 
 

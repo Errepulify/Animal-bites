@@ -1,29 +1,86 @@
-@media (max-width: 575.98px) {
-    body {
-        background-color: #e5e4e2
-        
+@media (min-width: 300px) {
+
+    .row {
+        background-color: #e5e4e2;
+        width:36rem;
     }
+
+
+}
+
+/*navbar styling*/
+
+.navbar {
+    width: 36rem;
+}
+
+.navbar-brand {
+    font-size: 3em;
+    margin-left: 5rem;
+
+}
+
+/*header styling*/
+
+.h1-header {
+    font-family: 'Signika', sans-serif;
+    font-size: 1.7em;
+    margin-left: 5rem;
+    
+}
+
+/*footer styling*/
+
+.footer {
+    height: 5rem;
+    width: 36rem;
+    background-color: #373a3c;
+}
+
+.footer-text {
+    color: #fff;
+}
+
+
+@media (min-width: 768px) {
+    body {
+        height: 78rem;
+        background-color: #e5e4e2;
+
+    }
+
     /*navbar styling*/
     .navbar {
         width: 100%;
     }
-    .navbar-brand{
-        font-size:3em;
+    .navbar-brand {
+        font-size: 3em;
     }
     /*header styling*/
-.h1-header{
-    font-family: 'Signika', sans-serif;
-    font-size: 1.7em;
-}
-/*footer styling*/
-.footer{
-    background-color: #373a3c;
-}
-.footer-text{
-    color:#fff;
-}
-  
-    
+    .h1-header {
+        font-family: 'Signika', sans-serif;
+        font-size: 1.7em;
+    }
+    /*footer styling*/
+    .footer {
+        height: 100rem;
+        background-color: #373a3c;
+    }
+    .footer-text {
+        color: #fff;
+    }
 
+}
 
+@media (min-width: 992px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    body {
+        background-color: green;
+    }
 }

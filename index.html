@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="viewport" content="width=450, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Animal bites</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
@@ -35,8 +35,8 @@
 </head>
 <header>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Dashboard: dataset</a>
-    
+    <a class="navbar-brand" href="#"><i class="fas fa-chart-bar"></i>Dashboard: dataset</a>
+
 
     <div class="collapse navbar-collapse" id="navbarColor02">
       <ul class="navbar-nav mr-auto">
@@ -48,53 +48,56 @@
 
 <body>
   
-
   <div class="container">
     <div class="row">
-      <h1 class ="h1-header"><b>Dataset of human been bitten by dogs</b></h1>
-      
+      <h1 class="h1-header"><b>Humans bitten by dogs</b></h1>
       <div class="col-md-6" id="breed-selector"></div>
-    <div class="col-md-6"><button id="reset"><a href="javascript:dc.filterAll(); dc.renderAll();">Reset all</a></button></div>
+      <div class="col-md-6"><button id="reset"><a href="javascript:dc.filterAll(); dc.renderAll();">Reset all</a></button></div>
     </div>
-    
+
     <div class="row">
-      <div class ="col-md-6" id="total-bites-per-year"><p>Dog Bites per year:</p></div>
-      <div class ="col-md-6" id="where-chart"><p>Where the dog bite was placed:</p></div>
+      <div class="col-md-6" id="total-bites-per-year">
+        <p>Dog Bites per year:</p>
       </div>
-      
-      <div class="row">
-        <div class="col-md-2" id="country-chart"><p>Dog Bites per country:</p></div>
+      <div class="col-md-6" id="where-chart">
+        <p>Where the dog bite was placed:</p>
       </div>
-      
-      
-      
-     
-   
-    
-   
-      <!--<h1>Dog Bites per year</h1>-->
-    
-
-   
-
-
-
-   
-      <!--<h1>Where the bite was placed</h1-->
-    
-   
-
-    <div id="country-chart">
-      <!--<h1>Dog Bites per country</h1>-->
     </div>
-  </div>
+
+    <div class="row">
+      <div class="col-md-6" id="country-chart">
+        <p>Dog Bites per country:</p>
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <!--<h1>Dog Bites per year</h1>-->
+
+
+
+
+
+
+
+    <!--<h1>Where the bite was placed</h1-->
+
+
+
+  
 
 
 
 
   <!--Footer-->
-  <div><footer class="footer"></div>
-    <div class="footer-text">This website is built by:Geert van Kaathoven<br>for a project for Code institute</div>
+  <div>
+    <footer class="footer">
+  </div>
+  <div class="footer-text">This website is built by:Geert van Kaathoven<br>for a project for Code institute</div>
   </footer>
 
 </body>

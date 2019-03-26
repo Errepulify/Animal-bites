@@ -41,31 +41,37 @@ function show_breed_selector(ndx) {
 function show_bar_chart(ndx) {
     var dim = ndx.dimension(dc.pluck('date'));
     var group = dim.group().reduceSum(dc.pluck('bite'));
+    let myColors = d3.scale.ordinal().range(["#747dbd"]);
 
     /*creates barchart total bites per gender*/
     dc.barChart("#total-bites-per-year")
         .width(500)
         .height(300)
-        .margins({ top: 10, right: 50, bottom: 50, left: 80 })
+         .colors(myColors)
+        .margins({ top: 10, right: 50, bottom: 50, left: 40 })
         .dimension(dim)
         .group(group)
+       
         .transitionDuration(500)
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
         .xAxisLabel("Year")
         .yAxisLabel("Total")
         .yAxis().ticks(20);
+        
 }
 
 function show_where_balance(ndx) {
     var dim = ndx.dimension(dc.pluck('wherebitten'));
     var group = dim.group().reduceSum(dc.pluck('bite'));
+     let myColors = d3.scale.ordinal().range(["#38598b"]);
 
 
     dc.barChart("#where-chart")
         .width(500)
         .height(300)
-        .margins({ top: 10, right: 50, bottom: 30, left: 80 })
+        .colors(myColors)
+        .margins({ top: 10, right: 50, bottom: 30, left: 40 })
         .dimension(dim)
         .group(group)
         .transitionDuration(500)
@@ -83,12 +89,14 @@ function show_where_balance(ndx) {
 function show_country_balance(ndx) {
     var dim = ndx.dimension(dc.pluck('country'));
     var group = dim.group().reduceSum(dc.pluck('bite'));
+    let myColors = d3.scale.ordinal().range(["#113f67"])
 
 
     dc.barChart("#country-chart")
         .width(550)
         .height(300)
-        .margins({ top: 10, right: 50, bottom: 30, left: 80 })
+        .colors(myColors)
+        .margins({ top: 10, right: 50, bottom: 30, left: 40 })
         .dimension(dim)
         .group(group)
         .transitionDuration(500)

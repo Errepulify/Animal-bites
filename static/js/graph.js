@@ -89,7 +89,7 @@ function show_where_balance(ndx) {
 function show_country_balance(ndx) {
     var dim = ndx.dimension(dc.pluck('country'));
     var group = dim.group().reduceSum(dc.pluck('bite'));
-    let myColors = d3.scale.ordinal().range(["#113f67"])
+    let myColors = d3.scale.ordinal().range(["#0f3658"])
 
 
     dc.barChart("#country-chart")

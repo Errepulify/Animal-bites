@@ -14,7 +14,7 @@
 
  }
 
- /* navar and footer background color*/
+ /*-----------------Nav Bar------------------------*/
 
  .navbar {
   background-color: #030a10;
@@ -31,6 +31,8 @@
   margin-left: -26px;
  }
 
+ /*-----------------Paragraph------------------------*/
+
  p {
   font-size: 17px;
   font-style: oblique;
@@ -38,6 +40,8 @@
   margin-top: 8px;
 
  }
+
+ /*-----------------Footer------------------------*/
 
  .footer {
   background-color: #030a10;
@@ -54,27 +58,31 @@
 
 
  @media (max-width: 576px) and (min-width: 375px) {
-
+  /*-----------------Bootstrap Row------------------------*/
   .row {
    width: 451px;
    margin-left: 4px;
    margin-bottom: 37px;
   }
 
+  /*-----------------Bootstrap container------------------------*/
   .container {
    margin-left: 35px;
   }
+
+  /*-----------------Nav Bar------------------------*/
   /*navbar styling*/
   .navbar {
    height: 68px;
    width: 645px;
-
   }
-
-
+  /*-----------------Bar chart------------------------*/
   #country-chart {
    margin-left: 10px;
   }
+
+
+  /*-----------------footer------------------------*/
   /*footer styling*/
   .footer {
    height: 79px;
@@ -91,17 +99,14 @@
  @media (min-width: 576px) {
 
 
-  .my-row {
-   margin-left: 62px;
-  }
+  /*-----------------Nav Bar------------------------*/
   .navbar {
    width: 1025px;
    height: 80px;
   }
 
 
-
-
+  /*-----------------Footer------------------------*/
   /*footer styling*/
   .footer {
    width: 1072px;
@@ -118,36 +123,41 @@
  }
 
  @media (min-width: 768px) {
-  
-  /*bar chart styling*/
-  #total-bites-per-year{
-  transform: scaleY(1.1);
-    margin-top: 37px;
+  /*-----------------Bar Chart------------------------*/
+  /*first bar chart styling*/
+  #total-bites-per-year {
+   transform: scaleY(1.1);
+   margin-top: 37px;
   }
-  #where-chart{
-   margin-left:150px;
-   margin-top:15px;
+  /*Second bar chart styling*/
+  #where-chart {
+   margin-left: 150px;
+   margin-top: 15px;
   }
+  /*Third bar chart styling*/
   #country-chart {
    transform: scale(1.5);
    margin-right: 34px;
    margin-top: 180px;
    margin-bottom: -198px;
   }
-  
+
+
+  /*-----------------My Row Total------------------------*/
   .my-row-total {
    width: 1000px;
   }
-  
-  .my-paragraph{
+   /*-----------------My Paragraph------------------------*/
+  /*-------Paragraph Styling-------*/
+  .my-paragraph {
    font-size: 24px;
-    margin-left: 70px;
+   margin-left: 70px;
   }
-  .my-paragraph-year{
-   margin-bottom:10px;
+  .my-paragraph-year {
+   margin-bottom: 10px;
   }
-  .my-paragraph-country{
-   margin-left:168px;
+  .my-paragraph-country {
+   margin-left: 168px;
   }
  }
  

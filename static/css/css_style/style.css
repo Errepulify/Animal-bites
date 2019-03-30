@@ -1,112 +1,153 @@
  /*Background color of website*/
 
  body {
-     background-color: #e7eaf6;
+  background-color: #e7eaf6;
  }
- /*header styling*/
-     .h1-header {
-         font-family: 'Signika', sans-serif;
-         font-size: 25px;
-         margin-left: 10px;
-         margin-top: 4px;
 
-     }
+ /*header styling*/
+
+ .h1-header {
+  font-family: 'Signika', sans-serif;
+  font-size: 25px;
+  margin-left: 10px;
+  margin-top: 4px;
+
+ }
+
  /* navar and footer background color*/
 
  .navbar {
-     background-color: #030a10;
+  background-color: #030a10;
  }
-  .navbar-brand {
-         font-size: 30px;
-         margin-left: 10px;
-         
-     }
-      .fa-chart-bar:before {
-         content: "\f080";
-         margin-left: -26px;
-     }
-     p {
-         font-size: 17px;
-         font-style: oblique;
-         margin-left: 192px;
-         margin-top: 8px;
 
-     }
+ .navbar-brand {
+  font-size: 30px;
+  margin-left: 10px;
+
+ }
+
+ .fa-chart-bar:before {
+  content: "\f080";
+  margin-left: -26px;
+ }
+
+ p {
+  font-size: 17px;
+  font-style: oblique;
+  margin-left: 192px;
+  margin-top: 8px;
+
+ }
 
  .footer {
-     background-color: #030a10;
+  background-color: #030a10;
  }
- .footer-text{
-     color:#fff;
-     
-         margin-top: -4rem;
-         margin-left: 2rem;
-     }
 
- 
+ .footer-text {
+  color: #fff;
+
+  margin-top: -4rem;
+  margin-left: 2rem;
+ }
+
+
 
 
  @media (max-width: 576px) and (min-width: 375px) {
 
-     .row {
-         width: 451px;
-         margin-left: 20px;
-         margin-bottom: 37px;
-     }
+  .row {
+   width: 451px;
+   margin-left: 4px;
+   margin-bottom: 37px;
+  }
 
-     .container {
-         margin-left: 35px;
-     }
-     /*navbar styling*/
-     .navbar {
-         height: 68px;
-         width: 645px;
+  .container {
+   margin-left: 35px;
+  }
+  /*navbar styling*/
+  .navbar {
+   height: 68px;
+   width: 645px;
 
-     }
+  }
 
 
-     #country-chart {
-         margin-left: 10px;
-     }
-     /*footer styling*/
-     .footer {
-         height: 79px;
-         width: 649px;
-         margin-left: -54px;
+  #country-chart {
+   margin-left: 10px;
+  }
+  /*footer styling*/
+  .footer {
+   height: 79px;
+   width: 649px;
+   margin-left: -54px;
 
-     }
+  }
 
-   
-   
+
+
 
  }
 
  @media (min-width: 576px) {
 
 
-     .row {
-         margin-left: 62px;
-     }
-     .navbar {
-         width: 994px;
-         height: 80px;
-     }
-     
-    
+  .my-row {
+   margin-left: 62px;
+  }
+  .navbar {
+   width: 1025px;
+   height: 80px;
+  }
 
 
-     /*footer styling*/
-     .footer {
-         width: 1042px;
-         height: 80px;
-         margin-left: -86px;
-         margin-top: 380px;
-     }
-     .footer-text {
-        
-         margin-top: -4rem;
-         margin-left: 2rem;
-     }
 
+
+  /*footer styling*/
+  .footer {
+   width: 1072px;
+   height: 80px;
+   margin-left: -86px;
+   margin-top: 431px;
+  }
+  .footer-text {
+
+   margin-top: -4rem;
+   margin-left: 2rem;
+  }
+
+ }
+
+ @media (min-width: 768px) {
+  
+  /*bar chart styling*/
+  #total-bites-per-year{
+  transform: scaleY(1.1);
+    margin-top: 37px;
+  }
+  #where-chart{
+   margin-left:150px;
+   margin-top:15px;
+  }
+  #country-chart {
+   transform: scale(1.5);
+   margin-right: 34px;
+   margin-top: 180px;
+   margin-bottom: -198px;
+  }
+  
+  .my-row-total {
+   width: 1000px;
+  }
+  
+  .my-paragraph{
+   font-size: 24px;
+    margin-left: 70px;
+  }
+  .my-paragraph-year{
+   margin-bottom:10px;
+  }
+  .my-paragraph-country{
+   margin-left:168px;
+  }
  }
  

@@ -3,104 +3,68 @@
 
 <head>
   <meta charset="UTF-8">
- <meta name="viewport" content="width=450, initial-scale=1">
+  <meta name="viewport" content="width=450, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Animal bites</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-  <link rel="stylesheet" href="static/css/bootstrap.min.css" type="text/css" />
-  <link rel="stylesheet" href="static/css/dc.min.css" type="text/css" />
+  <link rel="stylesheet" href="static/libs/css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="static/libs/css/dc.min.css" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
-  <link rel="stylesheet" href="static/css/css_style/style.css" type="text/css" />
-
-
-  <!--Load Jasmine framework-->
-  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.3.0/jasmine.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.3.0/jasmine-html.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.3.0/boot.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.3.0/jasmine.css" /> -->
-
-  <!-- Load scripts 
-    <script type="text/javascript" src="jasmine/scripts/calc.js"></script>-->
-
-  <!-- Load test 
-    <script type="text/javascript" src="jasmine/spec/calcSpec.js"></script>-->
-
-  <script type="text/javascript" src="static/js/d3.min.js"></script>
-  <script type="text/javascript" src="static/js/crossfilter.min.js"></script>
-  <script type="text/javascript" src="static/js/dc.min.js"></script>
-  <script type="text/javascript" src="static/js/queue.min.js"></script>
-  <script type="text/javascript" src="static/js/graph.js"></script>
-
+  <link rel="stylesheet" href="static/css/style.css" type="text/css" />
 
 </head>
-<header>
-  <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand" href="#"><i class="fas fa-chart-bar fa-fw"></i>Dashboard</a>
-
-
-    <div class="collapse navbar-collapse" id="navbarColor02">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-        </li>
-</ul>
-  </nav>
-</header>
 
 <body>
-  
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="index.html"><i class="fas fa-chart-bar fa-fw"></i>Dashboard</a>
+  </nav>
+
   <div class="container">
+
     <div class="row">
-      <h1 class="h1-header"><b>Humans bitten by dogs</b></h1>
-      <div class="col-md-6" id="breed-selector"></div>
-      <div class="col-md-6"><button id="reset"><a href="javascript:dc.filterAll(); dc.renderAll();">Reset all</a></button></div>
+      <h1>Humans bitten by Dogs</h1>
+    </div>
+
+    <div class="row">
+
+      <div class="col-sm-12 col-md-6 select-reset" id="breed-selector"></div>
+      <div class="col-sm-12 col-md-6 select-reset"><a href="javascript:dc.filterAll(); dc.renderAll();" id="reset" class="btn btn-primary" role="button">Reset All</a></div>
+
     </div>
 
     <div class="row my-row-total">
-      <div class="col-md-4" id="total-bites-per-year">
-        <p class="my-paragraph">Dog Bites per year:</p>
+      <div class="col-md-6" id="total-bites-per-year">
+        <h2>Dog Bites per Year:</h2>
       </div>
-      
-      <div class="col-md-4" id="where-chart">
-        <p class="my-paragraph">Where the dog bite was placed:</p>
+
+      <hr>
+
+      <div class="col-md-6" id="where-chart">
+        <h2>Dog Bite Location:</h2>
       </div>
     </div>
+
+    <hr>
 
     <div class="row justify-content-center">
-      <div class="col-md-6" id="country-chart">
-        <p class ="my-paragraph-country">Dog Bites per country:</p>
+      <div class="col-sm-12" id="country-chart">
+        <h2>Dog Bites per Country:</h2>
       </div>
     </div>
-
-
-
-
-
-
-
-    <!--<h1>Dog Bites per year</h1>-->
-
-
-
-
-
-
-
-    <!--<h1>Where the bite was placed</h1-->
-
-
-
-  
-
-
+  </div>
 
 
   <!--Footer-->
-  <div>
-    <footer class="footer">
-  </div>
-  <div class="footer-text">This website is built by:Geert van Kaathoven<br>for a project for Code institute</div>
-  </footer>
 
+  <footer>
+    built by: Geert van Kaathoven
+    <br>project for: Code institute
+  </footer>
+  <script type="text/javascript" src="static/libs/js/d3.min.js"></script>
+  <script type="text/javascript" src="static/libs/js/crossfilter.min.js"></script>
+  <script type="text/javascript" src="static/libs/js/dc.min.js"></script>
+  <script type="text/javascript" src="static/libs//js/queue.min.js"></script>
+  <script type="text/javascript" src="static/js/graph.js"></script>
 </body>
 
 </html>

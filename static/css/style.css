@@ -1,0 +1,69 @@
+* {
+ margin: 0 auto;
+ padding: 0;
+}
+
+h1,
+h2 {
+ margin: 0 auto;
+ text-align: center;
+ font-family: 'Signika', sans-serif;
+}
+
+/*Background color of website*/
+
+body {
+ background-color: #e7eaf6;
+}
+
+.container {
+ width: 100%;
+ margin: 20px auto;
+}
+
+/*-----------------Nav Bar------------------------*/
+
+.navbar {
+ width: 100%;
+ background-color: #030a10;
+}
+
+.navbar-brand {
+ font-size: 40px;
+ margin-left: 5px;
+}
+
+/*-----------------Charts------------------------*/
+
+h2 {
+ font-size: 24px;
+ font-style: oblique;
+}
+
+.select-reset {
+ text-align: center;
+ align-self: center;
+ margin: 10px auto;
+}
+
+#breed-selector {
+ font-size: 24px;
+}
+
+#reset {
+ font-size: 16px;
+ border-radius: 5px;
+}
+
+.dc-chart {
+ margin: 15px auto;
+}
+
+/*-----------------Footer------------------------*/
+
+footer {
+ background-color: #030a10;
+ width: 100%;
+ color: #fff;
+ padding: 10px;
+}

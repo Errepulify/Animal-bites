@@ -45,41 +45,46 @@ function show_bar_chart(ndx) {
 
     /*creates barchart total bites per gender*/
     dc.barChart("#total-bites-per-year")
-        .width(500)
-        .height(300)
-         .colors(myColors)
-        .margins({ top: 10, right: 50, bottom: 40, left: 40 })
-        .dimension(dim)
-        .group(group)
-       
-        .transitionDuration(500)
-        .x(d3.scale.ordinal())
-        .xUnits(dc.units.ordinal)
-        .xAxisLabel("Year")
-        .yAxisLabel("Total")
-        .yAxis().ticks(20);
-        
-}
-
-function show_where_balance(ndx) {
-    var dim = ndx.dimension(dc.pluck('wherebitten'));
-    var group = dim.group().reduceSum(dc.pluck('bite'));
-     let myColors = d3.scale.ordinal().range(["#38598b"]);
-
-
-    dc.barChart("#where-chart")
-        .width(500)
+        //.width(400)
         .height(300)
         .colors(myColors)
         .margins({ top: 10, right: 50, bottom: 40, left: 40 })
         .dimension(dim)
         .group(group)
+        .useViewBoxResizing(true)
+        .elasticY(true)
+        .gap(20)
+        .transitionDuration(500)
+        .x(d3.scale.ordinal())
+        .xUnits(dc.units.ordinal)
+        .xAxisLabel("Year")
+        .yAxisLabel("Total")
+        .yAxis().ticks(5);
+
+}
+
+function show_where_balance(ndx) {
+    var dim = ndx.dimension(dc.pluck('wherebitten'));
+    var group = dim.group().reduceSum(dc.pluck('bite'));
+    let myColors = d3.scale.ordinal().range(["#38598b"]);
+
+
+    dc.barChart("#where-chart")
+        //.width(400)
+        .height(300)
+        .colors(myColors)
+        .margins({ top: 10, right: 50, bottom: 40, left: 40 })
+        .dimension(dim)
+        .group(group)
+        .useViewBoxResizing(true)
+        .elasticY(true)
+        .gap(20)
         .transitionDuration(500)
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
         .xAxisLabel("Where")
         .yAxisLabel("Total")
-        .yAxis().ticks(20);
+        .yAxis().ticks(5);
 }
 
 
@@ -93,17 +98,19 @@ function show_country_balance(ndx) {
 
 
     dc.barChart("#country-chart")
-        .width(550)
+        //.width(500)
         .height(300)
         .colors(myColors)
         .margins({ top: 10, right: 50, bottom: 40, left: 40 })
         .dimension(dim)
         .group(group)
+        .useViewBoxResizing(true)
+        .elasticY(true)
+        .gap(10)
         .transitionDuration(500)
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
         .xAxisLabel("Country")
         .yAxisLabel("Total")
-        .yAxis().ticks(20);
-        
+        .yAxis().ticks(5);
 }

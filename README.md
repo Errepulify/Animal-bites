@@ -16,7 +16,7 @@ The data is presented by three bar charts that are interactive and can be clicke
 
 ### Wireframes
 
- - <a href="https://imgur.com/8BjOyW4">Desktop wireframe</a>
+ [Desktop Wireframe](static/libs/wireframe/desktop.png) 
  - <a href="https://imgur.com/DxaZS0B">Mobile wireframe</a>
  
 ## Features

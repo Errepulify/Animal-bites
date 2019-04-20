@@ -22,8 +22,8 @@ The data is presented by three bar charts that are interactive and can be clicke
 
 ### Wireframes
 
- [Desktop Wireframe](static/libs/wireframe/desktop.png)<br> 
- [Mobile Wireframe](static/lib/wireframe/mobile.png)
+- [Desktop Wireframe](static/libs/wireframe/desktop.png)<br> 
+- [Mobile Wireframe](static/lib/wireframe/mobile.png)
  
 ## Features
 
@@ -154,8 +154,9 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 ## Credits
 
 ### Acknowledgements
-- My mentor Juan Monetti
-- Stackoverflow, Github, Slack, Bootstrap
-- 
+- My mentor Juan Monetti for helping and guiding me in the right direction.
+- Stackoverflow, Github, Slack, Bootstrap.
+- Tim Nelson with guiding me with his webinairs and advice.
+
 #### Disclaimer
 The content of this website, including the images used, are for educational purposes only.

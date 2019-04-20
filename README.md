@@ -159,4 +159,4 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 - Tim Nelson with guiding me with his webinairs and advice.
 
 #### Disclaimer
-The content of this website, including the images used, are for educational purposes only.
+The content of this website are for educational purposes only.

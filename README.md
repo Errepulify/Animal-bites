@@ -6,18 +6,22 @@ The data is presented by three bar charts that are interactive and can be clicke
 
 ## UX
 
-- As a user I want to be able to see which dog gender attacked the most.
+- As a user I want to be able to see a total of the attacks by all dogs. !!!!!!!!!!!!!!!!!!!!!!!!!
 
-- As user I want to see which parts of the victims got attacked.(body, head, unknown).
+- As a user I want to be able to see in which year how many dog bites were happening. !!!!!!!!!!!!!!!!!!!!!!!
 
-- As a user I want to click on a button so everything resets.
+- As a user I want to see which parts of the victims got attacked.(body, head, unknown). !!!!!!!!!!!!!!
 
-- As a user I want to be able to see the website on different devices.
+- As a user I want to be able to see how many dog bites were happening by country. !!!!!!!
+
+- As a user I want to click on a dropdown menu breed selector to show from each dog breed a dataset !!!!!!
+
+- As a user I want to click on a button so the filter resets.
 
 ### Wireframes
 
- [Desktop Wireframe](static/libs/wireframe/desktop.png) 
- - <a href="https://imgur.com/DxaZS0B">Mobile wireframe</a>
+ [Desktop Wireframe](static/libs/wireframe/desktop.png)<br> 
+ [Mobile Wireframe](static/lib/wireframe/mobile.png)
  
 ## Features
 
@@ -27,12 +31,16 @@ The data is presented by three bar charts that are interactive and can be clicke
 
 ### Features Left to Implement
 
+
 ## Technologies Used
 
-- [Bootstrap](https://jquery.com) 
+- [Bootstrap](https://www.bootstrapcdn.com/) 
     - The project uses **Bootstrap 3** to make it responsive.
 - HTML
     -  standard markup language for this project.
+
+- Cloud9 [Cloud9](https://c9.io) 
+    -**Cloud9** used for their IDE while building and testing the website.
 - CSS3
     - The project uses **CSS3** to style it.
 - Javascript/Crossfilter/D3/DC and Queue
@@ -40,25 +48,69 @@ The data is presented by three bar charts that are interactive and can be clicke
       And **Javascript** is used for the select all button to be able to function.
 - [Font Awesome](https://fontawesome.com/)
     - The Navbar icon is created with **Font Awesome** to give the website a bit more styling.
-- Google Font
-    - For the Headers **Font Awesome** is used. The font used is Signika.
+- [Google Fonts](https://fonts.google.com/)
+    - For the Headers **Google fonts** is used. The font used is Signika.
+- [GitHub](https://github.com/)
+    - The project uses **GitHub** to store and share all project code to the github site.
 
 ## Testing
-1. Breed selector:
+
+
+##### 1. See a total of attacks by all dogs:
+
+   1. Make sure you are on the mainpage of the website and it should show all the bar charts with the total of all the dogs(per year, per location) 
+   2. If this fails. Reset the browser by clicking on the ![refresh button picture](https://i.imgur.com/1AIm3KO.png ) refresh icon.
+   3. Website would load again and if it works you see the total of all the dogs.
+   4. If not retry step 2 above here.
+   5. hover with your mouse over the bar chart of choice. The year and total number shows up next to your cursor.
+
+##### 2. See in which year how many dog bites were happening.
+
+   1. Go to the mainpage where you can see in total three bar charts. two at the top and one at the bottom.
+   2. If this fails. Reset the browser by clicking on the ![refresh button picture](https://i.imgur.com/1AIm3KO.png ) refresh icon.
+   3. Website would load again and you can see the charts again.
+   4. If not retry step 2 above here.
+   2. Go with your mouse to the the first bar chart that say: "Dog bites per year".
+   3. Click on one or more of the three bars with the text "2015", "2016" or "2017".
+   4. The bar(s) you selected is in color while the other faded out in gray.
+   5. To reset the charts back to the beginnging, click on the blue reset all button
+
+##### 3. See which part of the body got attacked.
+
+   1. Go to the mainpage where you can see in total three bar charts. two at the top and one at the bottom.
+   2. If this fails. Reset the browser by clicking on the ![refresh button picture](https://i.imgur.com/1AIm3KO.png ) refresh icon.
+   3. Website would load again and you can see the charts again.
+   4. If not retry step 2 above here.
+   5. Go with your mouse to the second bar chart that say: "Which parts of the body attacked by dogs"
+   6. Click on one or more of the three bars with the text "Body", "Head", "Unknown".
+   7. The bar(s) you selected is in color while the other faded out in gray.
+   8. To reset the charts back to the beginnging, click on the blue reset all button
+
+##### 4. See how many dog bites were happening by country.
+
+   1. Go to the mainpage where you can see in total three bar charts. two at the top and one at the bottom.
+   2. If this fails. Reset the browser by clicking on the ![refresh button picture](https://i.imgur.com/1AIm3KO.png ) refresh icon.
+   3. Website would load again and you can see the charts again.
+   4. If not retry step 2 above here.
+   5. Go with your mouse to the bar chart at the bottom which say: "Dog bites per country"
+   6. Click on one or more of the three bars with the country of your choice.
+   7. The bar(s) you selected is in color while the other faded out in gray.
+   8. To reset the charts back to the beginnging, click on the blue reset all button.
+
+##### 1. Breed selector:
+
    1. Click with your mouse on the box with the text "Choose dog breed"
    2. A dropdown menu pops up and click the desired breed.
    3. The charts move up or down according to the data you picked.
+   4. To reset the charts back to the beginning, click on the blue reset all button.
 
-2. Click the charts bars:
-   1. Go with your mouse to one of the three charts: "Dog Bites Per Year", "Dog Bite location" or Dog Bites Per Country.
-   2. Click on one of the bars as example in the Dog Bites Per Year" on the bar "2017".
-   3. The charts move up or down according to the data you picked
+##### 3. Reset button:
 
-3. Reset button:
    1. Click on one or more bars in the chart. For example: "2017", "Head", "Ireland".
    2. The chars move up or down according to your data you picked.
    3. To reset it back to default click on the blue button with the text: "Reset All".
    4. The bars are reset to its default value.
+   
 
 ### Responsive
 I tested on different devices and screen sizes. The responsiveness in Internet explorer, Google Chrome, Mozilla Firefox and Blisk.
@@ -67,11 +119,26 @@ I tested on different devices and screen sizes. The responsiveness in Internet e
 Sometimes when the page is loaded the navbar and footer are out of border. Same with the size of the charts.
 But after a refresh of the page it works as it should.
 
+On mobile the website is sometimes zoomed in. You can undo this by tapping once or twice onto the screen or use your index and thumb on the screen to zoom out.
+
 ## Deployment
-Used git to commit my repo and uploaded it to Github Pages.
+This project was developed using the [Cloud9 IDE](https://c9.io), committed to git and pushed to GitHub using the built in function within cloud9.
+
+To deploy this project to GitHub Pages from its GitHub repository, the following steps were done:
+
+1. Log into GitHub account.
+2. From the list of repositories on the screen, select Errepulify/Repositories/Animal-bites
+3. From the menu items near the top of the page, select Settings.
+4. Scroll down to the GitHub Pages section.
+5. Under Source click the drop-down menu labelled None and select Master Branch
+6. On selecting Master Branch the page is automatically refreshed, the repository is now ready to be deployed.
+7. Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
 
 ## Credits
 
 ### Acknowledgements
 - My mentor Juan Monetti
 - Stackoverflow, Github, Slack, Bootstrap
+- 
+#### Disclaimer
+The content of this website, including the images used, are for educational purposes only.

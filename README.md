@@ -8,15 +8,15 @@ The data is presented by three bar charts that are interactive and can be clicke
 
 ## UX
 
-- As a user I want to be able to see a total of the attacks by all dogs. !!!!!!!!!!!!!!!!!!!!!!!!!
+- As a user I want to be able to see a total of the attacks by all dogs. 
 
-- As a user I want to be able to see in which year how many dog bites were happening. !!!!!!!!!!!!!!!!!!!!!!!
+- As a user I want to be able to see in which year how many dog bites were happening. 
 
-- As a user I want to see which parts of the victims got attacked.(body, head, unknown). !!!!!!!!!!!!!!
+- As a user I want to see which parts of the victims got attacked.(body, head, unknown). 
 
-- As a user I want to be able to see how many dog bites were happening by country. !!!!!!!
+- As a user I want to be able to see how many dog bites were happening by country. 
 
-- As a user I want to click on a dropdown menu breed selector to show from each dog breed a dataset !!!!!!
+- As a user I want to click on a dropdown menu breed selector to show from each dog breed a dataset 
 
 - As a user I want to click on a button so the filter resets.
 

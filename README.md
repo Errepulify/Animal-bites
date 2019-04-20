@@ -3,6 +3,8 @@
 This website is for anyone that loves to see data.
 The data is presented by three bar charts that are interactive and can be clicked on.
 
+[Link to the live github page](https://errepulify.github.io/Animal-bites/)
+
 
 ## UX
 
@@ -133,6 +135,22 @@ To deploy this project to GitHub Pages from its GitHub repository, the following
 5. Under Source click the drop-down menu labelled None and select Master Branch
 6. On selecting Master Branch the page is automatically refreshed, the repository is now ready to be deployed.
 7. Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
+
+### How to run this project locally
+
+To clone this project from GitHub:
+1. Follow this link to the [GitHub repository](https://github.com/Errepulify/Animal-bites).
+2. Under the repository name, click "Clone or download".
+3. In the Clone with HTTPs section, copy the clone URL for the repository. 
+4. In your local IDE open Git Bash.
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type ```git clone```, and then paste the URL you copied in Step 3.
+```console
+git clone https://github.com/USERNAME/REPOSITORY
+```
+7. Press Enter. Your local clone will be created.
+
+Further reading and troubleshooting on cloning a repository from GitHub [here](https://help.github.com/en/articles/cloning-a-repository).
 
 ## Credits
 

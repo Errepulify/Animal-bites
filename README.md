@@ -33,7 +33,6 @@ The data is presented by three bar charts that are interactive and can be clicke
 
 ### Features Left to Implement
 
-
 ## Technologies Used
 
 - [Bootstrap](https://www.bootstrapcdn.com/) 
@@ -94,7 +93,7 @@ The data is presented by three bar charts that are interactive and can be clicke
    2. If this fails. Reset the browser by clicking on the ![refresh button picture](https://i.imgur.com/1AIm3KO.png ) refresh icon.
    3. Website would load again and you can see the charts again.
    4. If not retry step 2 above here.
-   5. Go with your mouse to the bar chart at the bottom which say: "Dog bites per country"
+   5. Go with your mouse to the bar chart at the bottom which say: "Dog bites per country".
    6. Click on one or more of the three bars with the country of your choice.
    7. The bar(s) you selected is in color while the other faded out in gray.
    8. To reset the charts back to the beginnging, click on the blue reset all button.

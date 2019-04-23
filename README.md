@@ -124,6 +124,7 @@ With an easy to use selector, to make it more understandable the text: "Choose a
 
 ### automatic testing
 For this project I haven't used any of Jasmine automatic testing.
+The Jasmine folder and test.html are still kept in so in the future they can be used to do automatic testing.
    
 
 ### Responsive

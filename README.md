@@ -49,7 +49,7 @@ With an easy to use selector, to make it more understandable the text: "Choose a
 - HTML
     -  standard markup language for this project.
 
-- Cloud9 [Cloud9](https://c9.io) 
+- [Cloud9](https://c9.io) 
     -**Cloud9** used for their IDE while building and testing the website.
 - CSS3
     - The project uses **CSS3** to style it.

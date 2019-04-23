@@ -8,6 +8,7 @@ Githubpage: To got to the live page click this link: [Animal-bites](https://erre
 
 ## UX
 
+#### User Stories
 - As a user I want to be able to see a total of the attacks by all dogs. 
 
 - As a user I want to be able to see in which year how many dog bites were happening. 
@@ -19,6 +20,14 @@ Githubpage: To got to the live page click this link: [Animal-bites](https://erre
 - As a user I want to click on a dropdown menu breed selector to show from each dog breed a dataset 
 
 - As a user I want to click on a button so the filter resets.
+
+
+#### Design
+
+The goal for the website was to make the design as clean as possible.
+To give a difference between the charts, the use of three colors close to eacother was taken.
+On desktop and ipad the design is used to have two bar charts at top and one at the bottom.
+With an easy to use selector, to make it more understandable the text: "Choose a dog breed" is used
 
 ### Wireframes
 
@@ -113,6 +122,10 @@ Githubpage: To got to the live page click this link: [Animal-bites](https://erre
    4. The bars are reset to its default value.
    
 
+### automatic testing
+For this project I haven't used any of Jasmine automatic testing.
+   
+
 ### Responsive
 I tested on different devices and screen sizes. The responsiveness in Internet explorer, Google Chrome, Mozilla Firefox and Blisk.
 
@@ -159,8 +172,5 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 - Tim Nelson with guiding me with his webinairs and advice.
 
 #### Disclaimer
-<<<<<<< HEAD
+
 The content of this website are for educational purposes only.
-=======
-The content of this website are for educational purposes only.
->>>>>>> 085491096a1a856461e1e0a5393e4674ac5bb76a

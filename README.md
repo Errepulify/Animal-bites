@@ -31,8 +31,8 @@ With an easy to use selector, to make it more understandable the text: "Choose a
 
 ### Wireframes
 
-- [Desktop Wireframe](static/libs/wireframe/desktop.png)<br> 
-- [Mobile Wireframe](static/lib/wireframe/mobile.png)
+- [Desktop Wireframe](static/libraries/wireframe/desktop.png)<br> 
+- [Mobile Wireframe](static/libraries/wireframe/mobile.png)
  
 ## Features
 

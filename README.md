@@ -3,7 +3,7 @@
 This website is for anyone that loves to see data.
 The data is presented by three bar charts that are interactive and can be clicked on.
 
-Githubpage: To got to the live page click this link: [Animal-bites](https://errepulify.github.io/Animal-bites/)
+Githubpage: To got to the live page click this link: [Animal-bites](https://codingwithgeert.github.io/Animal-bites/)
 
 
 ## UX
